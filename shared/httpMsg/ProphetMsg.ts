@@ -1,8 +1,8 @@
 
 import RoleAct from "./RoleAct";
 
-export interface ProphetCheckRequest extends RoleAct {}
+export interface SeerCheckRequest extends RoleAct {}
 
-export type ProphetCheckData = {
+export type SeerCheckData = {
   isWolf: boolean;
 };
