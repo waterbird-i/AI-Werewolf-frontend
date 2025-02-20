@@ -1,7 +1,7 @@
 export const CLIENT_BASE_URL =
-  "http://localhost:3000";
+  "http://localhost:5173";
 export const SERVER_DOMAIN =
-  "http://localhost:3011";
+  "http://localhost:3000";
   
 export const SERVER_BASE_URL =SERVER_DOMAIN + "/api"
 

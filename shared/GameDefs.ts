@@ -1,4 +1,4 @@
-export type Role = "HUNTER" | "WITCH" | "PROPHET" | "GUARD" | "VILLAGER" | "WEREWOLF" | "SHERIFF";
+export type Role = "HUNTER" | "WITCH" | "PROPHET" | "GUARD" | "VILLAGER" | "WEREWOLF" | "SHERIFF" | "";
 
 export type Potion = "POISON" | "MEDICINE";
 
@@ -10,6 +10,7 @@ export const ChineseNames: Record<Role, string> = {
   VILLAGER: "村民",
   WEREWOLF: "狼人",
   WITCH: "女巫",
+  "": "",
 };
 
 export enum Phase {
