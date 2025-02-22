@@ -5,7 +5,7 @@ export type index = number;
 
 export type day = number; // 第0夜: 0, 第 n 天白天: 2n-1, 第 n 天晚上: 2n
 
-export interface PublicPlayerDef {
+export interface PublicPlayer {
   index: index;
   name: string;
   isAlive: boolean;
@@ -15,7 +15,7 @@ export interface PublicPlayerDef {
 //   sheriffVotes: index[];
 }
 
-export interface PlayerDef extends PublicPlayerDef {
+export interface Player extends PublicPlayer {
   role: Role;
   RoleStatus?: RoleStatus;
   die?: {
